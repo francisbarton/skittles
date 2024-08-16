@@ -1,12 +1,17 @@
 # skittles
 
-## Dataset of Skittles pack colour counts with a pair of identical packs
+<div>
+<img src="inst/skittles.png" alt="A hexagonal logo with a bright orange border and the word skittles across the middle" height=300 width=259 align="left" hspace=20 vspace=20 />
 
-<img src="inst/skittles.png" alt="A hexagonal logo with a bright orange border and the word skittles across the middle" height=300 width=259 />
+<h3>Dataset of Skittles pack colour counts with a pair of identical packs</h3>
 
-This repository provides the famous ['skittles' experiment][pw2] dataset as an
-  R package.
-  The package provides the dataset in two versions:
+This repository provides the famous ['skittles' experiment][pw2] dataset as
+  an R package.
+
+<br clear="all" />
+</div>
+
+The package provides the dataset in two versions:
 
   * skittles (tidy, tibble)
   * skittles_raw (raw, data.frame)
@@ -22,7 +27,7 @@ skittles # or skittles_raw
 Columns 2-7 of the `skittles` dataset are the original data from Possibly
   Wrong, with the column names converted to lower case.
 
-I added a "pack_id" key field as column 1, which is just the row number
+I added a `pack_id` key field as column 1, which is just the row number
  zero-padded to a 3-digit character.
  (This is to avoid it being mistaken for a numeric data field.)
 
