@@ -2,7 +2,7 @@
 
 ## Dataset of Skittles pack colour counts with a pair of identical packs
 
-![A hexagonal logo with a bright orange border and the word skittles across the middle](inst/skittles.png)
+<img src="inst/skittles.png" alt="A hexagonal logo with a bright orange border and the word skittles across the middle" height=300 width=259 />
 
 This repository provides the famous ['skittles' experiment][pw2] dataset as an
   R package.
